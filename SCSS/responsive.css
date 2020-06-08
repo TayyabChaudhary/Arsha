@@ -1,0 +1,137 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* //CSS */
+    .background img {
+        width: 347px;
+        padding-top: 157px;
+    }
+    img.mt-5 {
+        width: 100%;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* //CSS */
+    .background img {
+        width: 118%;
+        animation: up-down 2s ease-in-out infinite alternate-reverse both;
+        padding-top: 143px;
+    }
+    .background p {
+        font-size: 18px;
+    }
+    img.mt-5 {
+    width: 100%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* //CSS */
+
+    img.mt-5 {
+    width: 100%;
+    }
+    .gray_background_color img {
+        max-width: 100%;
+        margin-top: 0px;
+    }
+    .background img {
+        width: 83%;
+        position: absolute;
+        bottom: -17px;
+    }
+    .background p {
+        font-size: 12px;
+    }
+    .background h1 {
+        font-size: 1em;
+        padding-top: 18px;
+    }
+    .background .get_started_button {
+        border: 2px solid #47b2e4;
+        padding: 0px;
+        border-radius: 22px;
+        outline: none;
+        background-color: #47b2e4;
+    }
+    .background i {
+        display: block;
+    }
+    .bulding-image h3 {
+        padding-top: 116px;
+    }
+    .bulding-image .action-btn {
+        right: 57px;
+        top: 64px;
+    }
+    .contactus h2::after {
+        left: calc(50% - 27%);
+    }
+    .princing_sections h2::after {
+        left: calc(50% - 30%);
+    }
+    #about_us_sections h2::after {
+        left: calc(50% - 30%);
+    }
+    .background-dark-color h2::after {
+        left: calc(50% - 29%);
+    }
+    .facany-section h1::after {
+        left: calc(50% - 30%);
+    }
+    .background nav .logo {
+        font-size: 2em;
+        padding-left: unset;
+    }
+  }
